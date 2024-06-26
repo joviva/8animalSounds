@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Verdana+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Verdana", sans-serif;
+    display: block;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+    height: 100vh;
+    overflow: hidden;
+}
+.btn{
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin:50px 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #f39c12;
+    
+}
